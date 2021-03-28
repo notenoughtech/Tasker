@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<EventGhost Version="0.5.0-rc6">
+    <Folder Name="Active PC" XML_Guid="{1C511931-E5E4-4152-8E2A-EC7C7CB9AE10}">
+        <Macro Name="Set Active" XML_Guid="{764F7DAE-4D93-4DCE-ADF9-37EFA2216E0C}" Expanded="True">
+            <Event Name="System.UnIdle" XML_Guid="{57D0FAEC-FEDF-48A2-A589-B3CFF6CBB89B}" />
+            <Action XML_Guid="{DAA4AE43-F0D0-4604-BFD6-362420EE94D9}">
+                AutoRemote.SendMessage(u'Mi11', '', u'flDTRiZuUfc:APA91bGUtp9F3PKEXuuU4886WTQlCqzzOJL2BJzOBzQQ1tPl8lrG5BkN_JGmofT5gKbYPirILjweDMvc-fzQeYgZ9UpIL_ldgAduugvsNh6OFz3CYAgdEM-m-h8GCpkEaJVuhJ4z3vNm', u'activePC=:=Desktop', u'30', u'', u'', '', u'', u'Mi11')
+            </Action>
+        </Macro>
+        <Macro Name="On Boot" XML_Guid="{764F7DAE-4D93-4DCE-ADF9-37EFA2216E0C}" Expanded="True">
+            <Event Name="System.Resume" XML_Guid="{57D0FAEC-FEDF-48A2-A589-B3CFF6CBB89B}" />
+            <Event Name="System.ResumeAutomatic" XML_Guid="{57D0FAEC-FEDF-48A2-A589-B3CFF6CBB89B}" />
+            <Event Name="Main.OnInitAfterBoot" XML_Guid="{57D0FAEC-FEDF-48A2-A589-B3CFF6CBB89B}" />
+            <Action XML_Guid="{61988F1B-5879-4E8B-8133-CAE17D4D31A2}">
+                EventGhost.Wait(10.0)
+            </Action>
+            <Action XML_Guid="{DAA4AE43-F0D0-4604-BFD6-362420EE94D9}">
+                AutoRemote.SendMessage(u'Mi11', '', u'flDTRiZuUfc:APA91bGUtp9F3PKEXuuU4886WTQlCqzzOJL2BJzOBzQQ1tPl8lrG5BkN_JGmofT5gKbYPirILjweDMvc-fzQeYgZ9UpIL_ldgAduugvsNh6OFz3CYAgdEM-m-h8GCpkEaJVuhJ4z3vNm', u'activePC=:=Desktop', u'30', u'', u'', '', u'', u'Mi11')
+            </Action>
+        </Macro>
+    </Folder>
+</EventGhost>

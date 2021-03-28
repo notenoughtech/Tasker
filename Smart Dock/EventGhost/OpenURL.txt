@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<EventGhost Version="0.5.0-rc6">
+    <Folder Name="Open URL" XML_Guid="{487699B6-3620-4783-A721-DB2B10447587}">
+        <Macro Name="AutoRemote URL" XML_Guid="{C6A0D8FE-9D62-4A57-8242-75A9080901DD}" Expanded="True">
+            <Event Name="AutoRemote.Message.URL" XML_Guid="{8B21F291-E3EC-4CFA-82FA-46444F830D54}" />
+            <Action XML_Guid="{415841F2-A767-454F-9F14-8FF4642CF4DD}">
+                EventGhost.PythonScript(u"import webbrowser\nprint(eg.event.payload.arcomm)\nurl = eg.event.payload.arcomm\nchrome_path = 'C:/Program Files/Google/Chrome/Application/chrome.exe %s'\n\nwebbrowser.get(chrome_path).open(url)")
+            </Action>
+        </Macro>
+    </Folder>
+</EventGhost>
