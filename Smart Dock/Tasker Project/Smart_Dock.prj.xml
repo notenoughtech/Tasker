@@ -1,8 +1,7 @@
 <TaskerData sr="" dvi="1" tv="5.12.6-beta">
 	<Profile sr="prof38" ve="2">
 		<cdate>1616860105326</cdate>
-		<clp>true</clp>
-		<edate>1616941797001</edate>
+		<edate>1616955780219</edate>
 		<flags>8</flags>
 		<id>38</id>
 		<mid0>36</mid0>
@@ -75,7 +74,7 @@ Values
 	<Profile sr="prof39" ve="2">
 		<cdate>1616861475382</cdate>
 		<clp>true</clp>
-		<edate>1616941816757</edate>
+		<edate>1616955785453</edate>
 		<flags>8</flags>
 		<id>39</id>
 		<mid0>40</mid0>
@@ -148,6 +147,7 @@ Way the message was sent (BT, Wifi, GCM)
 	</Profile>
 	<Profile sr="prof4" ve="2">
 		<cdate>1616885405350</cdate>
+		<clp>true</clp>
 		<edate>1616941830684</edate>
 		<flags>8</flags>
 		<id>4</id>
@@ -164,7 +164,7 @@ Way the message was sent (BT, Wifi, GCM)
 	<Profile sr="prof43" ve="2">
 		<cdate>1616885405350</cdate>
 		<clp>true</clp>
-		<edate>1616941824172</edate>
+		<edate>1616949980511</edate>
 		<flags>8</flags>
 		<id>43</id>
 		<mid0>7</mid0>
@@ -196,7 +196,7 @@ Way the message was sent (BT, Wifi, GCM)
 	<Profile sr="prof9" ve="2">
 		<cdate>1616885405350</cdate>
 		<clp>true</clp>
-		<edate>1616941843800</edate>
+		<edate>1616949990283</edate>
 		<flags>8</flags>
 		<id>9</id>
 		<mid0>8</mid0>
@@ -212,8 +212,8 @@ Way the message was sent (BT, Wifi, GCM)
 	<Project sr="proj0" ve="2">
 		<cdate>1616859915659</cdate>
 		<name>Smart Dock</name>
-		<pids>6,4,43,38,9,39</pids>
-		<tids>3,5,40,8,42,7,36</tids>
+		<pids>9,4,6,38,39,43</pids>
+		<tids>36,5,42,40,3,7,8</tids>
 		<Share sr="Share">
 			<d>&lt;p&gt;&lt;strong&gt;Tasker File Description:&lt;/strong&gt;&amp;nbsp;&lt;br /&gt;Use tasker to turn your standard desk dock or stand into a smart one! Cast URLs, Apps and YouTube videos to an active PC and continue where you have left off!&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
@@ -223,7 +223,7 @@ Way the message was sent (BT, Wifi, GCM)
 &lt;li&gt;use it with any dock or stand&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;More on:&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Instructions:&lt;/strong&gt;&amp;nbsp;&lt;br /&gt;Download the tasker project, and head to my GitHub page to get the EventGhost configuration file. Paste that into EventGhost and check the names of the devices and path to your browser in Python Script action.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Instructions:&lt;/strong&gt;&amp;nbsp;&lt;br /&gt;Download the tasker project, and head to my &lt;a href="https://github.com/notenoughtech/Tasker/tree/main/Smart%20Dock"&gt;GitHub page&lt;/a&gt; to get the EventGhost configuration file. Paste that into EventGhost and check the names of the devices and path to your browser in Python Script action.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;AutoRemote or Join&lt;/li&gt;
@@ -238,7 +238,7 @@ Way the message was sent (BT, Wifi, GCM)
 	</Project>
 	<Task sr="task3">
 		<cdate>1616885348152</cdate>
-		<edate>1616928781772</edate>
+		<edate>1616949990283</edate>
 		<id>3</id>
 		<nme>SD ActiveApp Reset</nme>
 		<Action sr="act0" ve="7">
@@ -254,7 +254,7 @@ Way the message was sent (BT, Wifi, GCM)
 	</Task>
 	<Task sr="task36">
 		<cdate>1616859928304</cdate>
-		<edate>1616935112106</edate>
+		<edate>1616955780219</edate>
 		<id>36</id>
 		<nme>SD Dock +</nme>
 		<pri>100</pri>
@@ -387,6 +387,42 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 			</ConditionList>
 		</Action>
 		<Action sr="act13" ve="7">
+			<code>1138588429</code>
+			<label>alternatively use Join</label>
+			<on>false</on>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Url: https://www.facebook.com/
+Device Name: %ACTIVEPC</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS>parameters</net.dinglisch.android.tasker.JSON_ENCODED_KEYS>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>java.lang.String</net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%joinmessage
+Result Message
+If there's no error, a possible status message&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<parameters>{"advancedSettings":{"deviceName":"%ACTIVEPC","sendCustomMessage":false},"app":{},"desktopSettings":{"commandLine":false},"find":false,"location":false,"notificationSettings":{"notificationDismissOnTouch":false},"say":{},"screenshot":false,"smsSettings":{},"url":"https://www.facebook.com/","generatedValues":{}}</parameters>
+					<parameters-type>java.lang.String</parameters-type>
+					<plugininstanceid>460e9af1-4a3d-4cb4-9d8b-7ca3d46fea30</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.join.tasker.intent.IntentSendPush</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.join</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.join.tasker.activity.ActivityConfigSendPush</Str>
+			<Int sr="arg3" val="60"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act14" ve="7">
 			<code>150587070</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -433,10 +469,10 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 			<Int sr="arg3" val="200"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act15" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act16" ve="7">
 			<code>37</code>
 			<label>App Facebook Messenger</label>
 			<ConditionList sr="if">
@@ -447,7 +483,43 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act17" ve="7">
+			<code>1138588429</code>
+			<label>alternatively use Join</label>
+			<on>false</on>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.twofortyfouram.locale.intent.extra.BLURB>Url: https://www.facebook.com/messages
+Device Name: %ACTIVEPC</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS>parameters</net.dinglisch.android.tasker.JSON_ENCODED_KEYS>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>java.lang.String</net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%joinmessage
+Result Message
+If there's no error, a possible status message&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<parameters>{"advancedSettings":{"deviceName":"%ACTIVEPC","sendCustomMessage":false},"app":{},"desktopSettings":{"commandLine":false},"find":false,"location":false,"notificationSettings":{"notificationDismissOnTouch":false},"say":{},"screenshot":false,"smsSettings":{},"url":"https://www.facebook.com/messages","generatedValues":{}}</parameters>
+					<parameters-type>java.lang.String</parameters-type>
+					<plugininstanceid>460e9af1-4a3d-4cb4-9d8b-7ca3d46fea30</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.join.tasker.intent.IntentSendPush</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.join</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.join.tasker.activity.ActivityConfigSendPush</Str>
+			<Int sr="arg3" val="60"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act18" ve="7">
 			<code>150587070</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -494,13 +566,8 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 			<Int sr="arg3" val="200"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act19" ve="7">
 			<code>38</code>
-		</Action>
-		<Action sr="act18" ve="7">
-			<code>25</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>1732635924</code>
@@ -558,13 +625,26 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 			<Int sr="arg3" val="5"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
+		<Action sr="act20" ve="7">
+			<code>25</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%APPCURRENT</lhs>
+					<op>1</op>
+					<rhs>none</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
 		<Action sr="act3" ve="7">
 			<code>1138588429</code>
+			<label>alternatively use Join</label>
 			<on>false</on>
 			<Bundle sr="arg0">
 				<Vals sr="val">
 					<com.twofortyfouram.locale.intent.extra.BLURB>Url: %CLIP
-Device Name: %ActivePC</com.twofortyfouram.locale.intent.extra.BLURB>
+Device Name: %ACTIVEPC</com.twofortyfouram.locale.intent.extra.BLURB>
 					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
 					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS>parameters</net.dinglisch.android.tasker.JSON_ENCODED_KEYS>
 					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>java.lang.String</net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>
@@ -580,7 +660,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
 					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
 					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<parameters>{"advancedSettings":{"deviceName":"%ActivePC","sendCustomMessage":false},"app":{},"desktopSettings":{"commandLine":false},"find":false,"location":false,"notificationSettings":{"notificationDismissOnTouch":false},"say":{},"screenshot":false,"smsSettings":{},"url":"%CLIP","generatedValues":{}}</parameters>
+					<parameters>{"advancedSettings":{"deviceName":"%ACTIVEPC","sendCustomMessage":false},"app":{},"desktopSettings":{"commandLine":false},"find":false,"location":false,"notificationSettings":{"notificationDismissOnTouch":false},"say":{},"screenshot":false,"smsSettings":{},"url":"%CLIP","generatedValues":{}}</parameters>
 					<parameters-type>java.lang.String</parameters-type>
 					<plugininstanceid>460e9af1-4a3d-4cb4-9d8b-7ca3d46fea30</plugininstanceid>
 					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
@@ -768,11 +848,12 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>1138588429</code>
+			<label>alternatively use Join</label>
 			<on>false</on>
 			<Bundle sr="arg0">
 				<Vals sr="val">
 					<com.twofortyfouram.locale.intent.extra.BLURB>Url: %CLIP
-Device Name: %ActivePC</com.twofortyfouram.locale.intent.extra.BLURB>
+Device Name: %ACTIVEPC</com.twofortyfouram.locale.intent.extra.BLURB>
 					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
 					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS>parameters</net.dinglisch.android.tasker.JSON_ENCODED_KEYS>
 					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>java.lang.String</net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>
@@ -788,7 +869,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
 					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
 					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<parameters>{"advancedSettings":{"deviceName":"%ActivePC","sendCustomMessage":false},"app":{},"desktopSettings":{"commandLine":false},"find":false,"location":false,"notificationSettings":{"notificationDismissOnTouch":false},"say":{},"screenshot":false,"smsSettings":{},"url":"%CLIP","generatedValues":{}}</parameters>
+					<parameters>{"advancedSettings":{"deviceName":"%ACTIVEPC","sendCustomMessage":false},"app":{},"desktopSettings":{"commandLine":false},"find":false,"location":false,"notificationSettings":{"notificationDismissOnTouch":false},"say":{},"screenshot":false,"smsSettings":{},"url":"%CLIP","generatedValues":{}}</parameters>
 					<parameters-type>java.lang.String</parameters-type>
 					<plugininstanceid>460e9af1-4a3d-4cb4-9d8b-7ca3d46fea30</plugininstanceid>
 					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
@@ -804,7 +885,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task40">
 		<cdate>1616861494423</cdate>
-		<edate>1616928825149</edate>
+		<edate>1616955785453</edate>
 		<id>40</id>
 		<nme>SD Set Active PC</nme>
 		<pri>6</pri>
@@ -861,7 +942,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 	</Task>
 	<Task sr="task7">
 		<cdate>1616885348152</cdate>
-		<edate>1616933129602</edate>
+		<edate>1616949980511</edate>
 		<id>7</id>
 		<nme>SD ActiveApp Chrome</nme>
 		<Action sr="act0" ve="7">
