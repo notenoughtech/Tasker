@@ -1,3 +1,5 @@
+![enter image description here](https://notenoughtech.com/wp-content/uploads/2021/03/thumbnail-1.jpg)
+
 **Tasker File Description:**  
 Use tasker to turn your standard desk dock or stand into a smart one! Cast URLs, Apps and YouTube videos to an active PC and continue where you have left off!
 
@@ -10,7 +12,7 @@ Use tasker to turn your standard desk dock or stand into a smart one! Cast URLs,
 More on:
 
 **Instructions:**  
-Download the tasker project, and head to my GitHub page to get the EventGhost configuration file. Paste that into EventGhost and check the names of the devices and path to your browser in Python Script action.
+Download the [tasker project](https://taskernet.com/shares/?user=AS35m8mukRNi0KvTv9JF6LyKMewcG%2BW7EzpF3a%2FGvwJJTFwWQ1%2BU3QCMEmxTS%2F07urNK%2FTAL&id=Project%3ASmart+Dock), and head to my GitHub page to get the EventGhost configuration file. Paste that into EventGhost and check the names of the devices and path to your browser in Python Script action.
 
 **Requirements:**
 
