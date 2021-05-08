@@ -1,6 +1,6 @@
 
 ![enter image description here](https://notenoughtech.com/wp-content/uploads/2021/05/print1.jpg)
-Taking Power Tiles from Android11 offline so you can add any devices from your DIY Smart Home. No could requirement, but with WAN and LAN controls
+Taking Power Tiles from Android11 offline so you can add any devices from your DIY Smart Home. No cloud requirement to achieve a 3 way sync between phones and NodeRED dashboard.
 
  - [Complete instructions](https://notenoughtech.com/tasker/power-menu-for-your-diy-smart-home/)
 
