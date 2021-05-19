@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<EventGhost Version="0.5.0-rc6">
+    <Event Name="AutoRemote.Message.WakeUp" XML_Guid="{5F107B17-2772-4A02-A932-0BFD94D62676}" />
+</EventGhost>
