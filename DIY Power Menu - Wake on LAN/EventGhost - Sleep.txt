@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <EventGhost Version="0.5.0-rc6">
-    <Event Name="AutoRemote.Message.WakeUp" XML_Guid="{5F107B17-2772-4A02-A932-0BFD94D62676}" />
+    <Folder Name="Go to sleep" XML_Guid="{F56BF4A2-6AB2-497D-A085-20C54D733C6F}" Expanded="True">
+        <Macro Name="Sleep" XML_Guid="{DFB5D34C-090F-4011-93EB-86C527C154D5}" Expanded="True">
+            <Event Name="AutoRemote.Message.Sleep" XML_Guid="{5F107B17-2772-4A02-A932-0BFD94D62676}" />
+            <Action XML_Guid="{F144E4E0-C62F-418B-93FA-E3D7E75574AB}">
+                System.Standby(True)
+            </Action>
+        </Macro>
+    </Folder>
 </EventGhost>
