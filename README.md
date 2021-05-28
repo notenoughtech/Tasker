@@ -5,4 +5,5 @@ If you like these Tasker projects, but you don't know much about the app itself,
 
 - [Smart Dock](https://notenoughtech.com/tasker/smart-dock/) (Use any dock to cast phone content to a PC automatically)
 - [Power Menu](https://notenoughtech.com/tasker/android-power-menu-for-your-diy-smart-home/) (Create your own Power Menu tiles that work without cloud)
+- [Power Menu - WOL](https://notenoughtech.com/tasker/power-menu-all-sensors/) (All sensor data in one Power Menu tile)
 - Power Menu - WOL (the ultimate Wake on LAN guide)
