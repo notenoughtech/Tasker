@@ -1,36 +1,32 @@
 
-![enter image description here](https://notenoughtech.com/wp-content/uploads/2021/05/print1.jpg)
-Taking Power Tiles from Android11 offline so you can add any devices from your DIY Smart Home. No cloud requirement to achieve a 3 way sync between phones and NodeRED dashboard.
 
- - [Complete instructions](https://notenoughtech.com/tasker/power-menu-for-your-diy-smart-home/)
+![enter image description here](https://notenoughtech.com/wp-content/uploads/2021/05/Power-Menu-all-sensors.jpg)
+Taking Power Tiles from Android11 to the next level! Thanks to this project you can display all sensor data in a single tile.
+
+ - [Complete instructions](https://notenoughtech.com/tasker/power-menu-all-sensors/)
 
 **Features**:
--   ✅ Display devices from multiple ecosystems
--   ✅ Add devices without cloud integration
--   ✅ Make personal shortcuts
--   ✅ Display custom information
--   ✅ Update existing tiles
--   ✅ LAN & WAN controls
--   ❌ Automatically add/remove active tiles
+-   ✅ timed (rooms are displayed in a timed sequence)
+-   ✅ requested (tapping the tile takes you to the next room)
+-   ✅ mixed (you can combine both)
+-   ✅ supports C|F units and hPa and inHg
 
 
 ## Requirements
 
  - node-red-dashboard
  - node-red-contrib-joinapp
- - [Tasker Project](https://taskernet.com/shares/?user=AS35m8mukRNi0KvTv9JF6LyKMewcG%2BW7EzpF3a%2FGvwJJTFwWQ1%2BU3QCMEmxTS%2F07urNK%2FTAL&id=Project%3APower+Tiles)
- 
- optional:
- - node-red-contrib-smartnora
- - node-red-contrib-alexa-cakebaked
+ - [Tasker Project](https://taskernet.com/shares/?user=AS35m8mukRNi0KvTv9JF6LyKMewcG%2BW7EzpF3a%2FGvwJJTFwWQ1%2BU3QCMEmxTS%2F07urNK%2FTAL&id=Project%3APower+Menu+-+Sensors)
+ - download and extract .zip with icons into Tasker directory
+
 
 
 # Settings
 
-Each tile needs a set of connected nodes to work. These nodes are universal and will work with any tile type. Make sure tiles have unique ID assigned.
+Download the tasker project, and head to my [GitHub page](https://github.com/notenoughtech/Tasker/tree/main/DIY%20Power%20Menu%20-%20All%20Sensors%20tile) to get the JSON configuration file for NodeRED. Check the settings node in NodeRED and run the default task to create your own Sensor tile, then add it to the active roster.
 
- - **Prep Response** - Check "on Start" tab and add Join devices by name
- - **Tiles** - add individual command for each tile as outlined in the article
+ - **settings** - Check "on Start" tab and add Join devices by name, select your units
+
  
  ## More about me:
 
