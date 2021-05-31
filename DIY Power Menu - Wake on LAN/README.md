@@ -1,40 +1,42 @@
 
-![enter image description here](https://notenoughtech.com/wp-content/uploads/2021/05/print1.jpg)
-Taking Power Tiles from Android11 offline so you can add any devices from your DIY Smart Home. No cloud requirement to achieve a 3 way sync between phones and NodeRED dashboard. You learn about [Power Menu](https://notenoughtech.com/tasker/power-menu-for-your-diy-smart-home/)
+![enter image description here](https://notenoughtech.com/wp-content/uploads/2021/05/maxresdefault-7.jpg)
+The latest take on WOL server that enables you to wake up and put to sleep compatible computers. This project supports Alexa, Google Assistant, and Android 11 Power Menus.
+It uses the Power Menu tutorial as a base [(read more details)](https://notenoughtech.com/tasker/power-menu-for-your-diy-smart-home/).
 
-This tutorial covers wake on LAN tile with all the integrations you will ever need.
-
-[Complete instructions](https://notenoughtech.com/tasker/power-menu-for-your-diy-smart-home/)
+[Complete instructions](https://notenoughtech.com/tasker/how-to-wake-on-lan/)
 
 
 
 **Features**:
 -   Display synched Power Menu across multiple devices
--   Dashboard logic for web access
--   Alexa and Google Home integration
--   Deploy and forget
--   Modular, pick functions you need
--   Monitors the status of the target machine
+-   Supports multiple computers
+-   Wake on LAN
+-   Sleep
+-   Bonus local only WOL without the need for a server
 
 ## Requirements
 
- - Tasker
- - node-red-contrib-joinapp (Power Menu communication)
- - node-red-node-wol
- - This Tasker Project File
- - This EventGhost config (for remote sleep)
+- Tasker
+- NodeRED
+- node-red-contrib-joinapp (Power Menu communication)
+- node-red-node-wol
+- This Tasker Project File
+- [This EventGhost config](https://github.com/notenoughtech/Tasker/tree/main/DIY%20Power%20Menu%20-%20Wake%20on%20LAN) (for remote sleep)
+ 
+- Tasker WOL without sever [TaskerNet.com](https://taskernet.com/shares/?user=AS35m8mukRNi0KvTv9JF6LyKMewcG%2BW7EzpF3a%2FGvwJJTFwWQ1%2BU3QCMEmxTS%2F07urNK%2FTAL&id=Project%3ASimple+WOL)
+- [WOL app](https://play.google.com/store/apps/details?id=co.uk.mrwebb.wakeonlan&hl=en_GB&gl=US)
  
  optional:
  - node-red-contrib-smartnora (Google Home integration)
  - node-red-contrib-alexa-home-skill (Alexa integration)
  - node-red-dashboard (web dashboard elements)
 
-If you are interested in WOL, you can also check out the Power Dashboard I made for computers to monitor the power used and cost associated with it. 
-[Complete instructions](https://notenoughtech.com/home-automation/pc-dashboard-using-netio-power-cables/)
+If you like the idea of controlling things from the Power Menu, check out [other tutorials](https://github.com/notenoughtech/Tasker)!
+- 
 
 # Settings
 
-Check the settings Function node - On Start tab and fill in the target details and Join Device names for each phone you want to present the Power Menu on. Tap the Power Menu once to send initial config.
+Check the settings Function node - On Start tab and fill in the target details and Join Device names and the network information of the target device.
  
  ## More about me:
 
